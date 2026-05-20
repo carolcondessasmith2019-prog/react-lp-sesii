@@ -26,39 +26,35 @@ function App() {
       </span>
         
      </nav>
-
     <main>
-
-        <section id="s1">
+        <section className={s.s1}>
 
         </section>
 
-       <section id="s2">
+       <section className={s.s2}>
 
+       <iframe className={s.video} src="https://www.youtube.com/embed/ZK6FEDVd1RA?si=2yhT8_S_kRlEoAUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
        </section>
         
-        <section id="s3">
+        <section className={s.s3} >
 
-            <iframe className={s.video} width: 100%; height: 1100px; src="https://www.youtube.com/embed/AG9Fionf4AA?si=Fw7d50DesPkfP1Ooautoplay=1&mute" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
         </section>
-
+        
        <section>
-        
-       </section>
-        <h1>conheça nosa marca</h1>
+        <h1>conheça nossa marca</h1>
         <h2>Rare Beauty chega para desconstruir os padrões irreais de perfeição. Queremos empoderar nossa comunidade para desafiar normas de beleza, moldando conversas positivas sobre autoaceitação e saúde mental. Esta é uma maquiagem feita para você se sentir bem, sem esconder o que o torna único - porque a Rare Beauty não é sobre ser outra pessoa, mas ser quem você é.</h2>
        </section>
 
-        <section id="s5">
+        <section className={s.s4}>
 
         </section>
 
-        <section id="s6">
+        <section className={s.s5}>
 
         </section>
 
-        <section id="s7">
+        <section className={s.s6}>
 
         </section>
 
