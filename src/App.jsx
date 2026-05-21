@@ -39,12 +39,14 @@ function App() {
         
         <section className={s.s3} >
 
+          <img src="/rare-beauty-logo.png" alt="" width="300px" />
+          <section>
+         <h1>conheça nossa marca</h1>
+         <h2>Rare Beauty chega para desconstruir os padrões irreais de perfeição. Queremos empoderar nossa comunidade para desafiar normas de beleza, moldando conversas positivas sobre autoaceitação e saúde mental. Esta é uma maquiagem feita para você se sentir bem, sem esconder o que o torna único - porque a Rare Beauty não é sobre ser outra pessoa, mas ser quem você é.</h2>
+          </section>
+       
         </section>
         
-       <section>
-        <h1>conheça nossa marca</h1>
-        <h2>Rare Beauty chega para desconstruir os padrões irreais de perfeição. Queremos empoderar nossa comunidade para desafiar normas de beleza, moldando conversas positivas sobre autoaceitação e saúde mental. Esta é uma maquiagem feita para você se sentir bem, sem esconder o que o torna único - porque a Rare Beauty não é sobre ser outra pessoa, mas ser quem você é.</h2>
-       </section>
 
         <section className={s.s4}>
 
