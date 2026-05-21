@@ -69,12 +69,13 @@ h1{
     animation: esquerda 2s ease-in-out;
     font-family: 'Times New Roman', Times, serif;
     color: #693d29;
+    line-height: 1.2;
 }
 h2{
     font-size: 30px;
     margin-left: 15px;
     color: #493511;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
 }
 
 @keyframes decimo {

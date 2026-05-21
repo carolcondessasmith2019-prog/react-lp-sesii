@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo {
+    display: flex;
+    text-align: right;
+} 
 
 .video {
       width: 100%;
