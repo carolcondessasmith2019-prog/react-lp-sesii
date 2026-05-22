@@ -5,10 +5,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.logo {
-    display: flex;
-    text-align: right;
-} 
 
 .video {
       width: 100%;
@@ -19,4 +15,122 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(211, 186, 174);
+}
+
+/* Product grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background: #f8f4ef;
+}
+
+/* Product card */
+.product-card {
+  position: relative;
+  background: #f5efe8;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Discount badge */
+.discount-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #bfb7af;
+  color: white;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-style: italic;
+  z-index: 2;
+}
+
+/* Product image */
+.product-image-wrapper {
+  background: #ede7df;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  max-width: 70%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+/* Product info */
+.product-info {
+  padding: 1.5rem 0;
+}
+
+.product-category {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #444;
+  margin-bottom: 0.7rem;
+}
+
+.product-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #2b1d17;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+/* Reviews */
+.product-reviews {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.stars {
+  color: #8d2342;
+  font-size: 0.9rem;
+}
+
+.review-count {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7a4a5f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Color swatches */
+.color-swatches {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.swatch {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.2s ease;
+}
+
+.swatch.active {
+  border-color: #b46c83;
+  box-shadow: 0 0 0 2px #f5efe8;
+}
+
+.swatch:hover {
+  transform: scale(1.1);
 }

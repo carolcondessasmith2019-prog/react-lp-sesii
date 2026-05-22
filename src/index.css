@@ -67,7 +67,7 @@ h1{
     width: 100%;
     text-align: left;
     animation: esquerda 2s ease-in-out;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #693d29;
     line-height: 1.2;
 }

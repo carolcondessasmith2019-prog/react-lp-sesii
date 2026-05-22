@@ -1,11 +1,28 @@
 import s from './App.module.css'
 
 function App() {
-//js
+  //js
 
   return (
     <>
-      <nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* <nav>
         <span className={s.navItems} onclick="navTo('s1')">
         <a className={s.navWords}>home</a>
       </span>
@@ -25,42 +42,43 @@ function App() {
         <a className={s.navWords}>cabelos</a>
       </span>
         
-     </nav>
-    <main>
-        <section className={s.s1}>
+     </nav> */}
+      <main>
+        <section id='s1' className={s.s1}>
 
         </section>
 
-       <section className={s.s2}>
+        <section id='s2' className={s.s2}>
 
-       <iframe className={s.video} src="https://www.youtube.com/embed/ZK6FEDVd1RA?si=2yhT8_S_kRlEoAUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      
-       </section>
-        
-        <section className={s.s3} >
+          <iframe className={s.video} src="https://www.youtube.com/embed/ZK6FEDVd1RA?si=2yhT8_S_kRlEoAUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <section id='s3' className={s.s3} >
           <section>
-         <h1>conheça nossa marca</h1>
-         <h2>Rare Beauty chega para desconstruir os padrões irreais de perfeição. Queremos empoderar nossa comunidade para desafiar normas de beleza, moldando conversas positivas sobre autoaceitação e saúde mental. Esta é uma maquiagem feita para você se sentir bem, sem esconder o que o torna único - porque a Rare Beauty não é sobre ser outra pessoa, mas ser quem você é.</h2>
+            <h1 className={s.titulo}>Conheça nossos produtos mais vendidos</h1>
+            <h2 className={s.subtitulo}>Soft Pinch Liquid Blush</h2>
+            <h3 className={s.produto1}></h3>
+            <h4 className={s.subtitulo}>positive light liquid luminizer</h4>
           </section>
-         <img className={s.logo} src="rare-beauty-logo.png" alt="" width='300px' />
-          </section>
-      
-        <section className={s.s4}>
+        </section>
+
+        <section id='s4' className={s.s4}>
 
         </section>
 
-        <section className={s.s5}>
+        <section id='s5' className={s.s5}>
 
         </section>
 
-        <section className={s.s6}>
+        <section id='s6' className={s.s6}>
 
         </section>
 
-    </main>
-    <footer>
-            
-    </footer>
+      </main>
+      <footer>
+
+      </footer>
     </>
   )
 }
